@@ -1,0 +1,23 @@
+.error404{
+    background-color: #12002b;
+    color:  #fff;
+  }
+.error404 h1,p{
+    margin: auto;
+    text-align: center;
+
+  }   
+.error404 h1 {
+    font-size: 90px;
+    padding-top: 55px;
+    }
+  
+.error404 p {
+      margin-bottom: 5rem;
+      font-size: 30px;
+      max-width: 30rem;
+    }
+.error404 a{
+      color:  #fff;
+      text-decoration: none;
+    }    
