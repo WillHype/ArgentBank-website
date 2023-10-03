@@ -1,5 +1,4 @@
 import React from 'react';
-// import "../index.css";
 import Feature from '../components/FeatureSection';
 import HeroBanner from '../components/HeroBanner';
 

@@ -308,21 +308,6 @@ body {
   border-color: #00bc77;
   background-color: #00bc77;
   color: #fff;
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  
-}
-
-.transactions-xmark {
-  font-size: 3rem;
-  color: #00bc77;
-  padding-right: 3rem;
-
-}
-
-.margtop {
-  margin-top: 2rem;
 }
 
 @media (min-width: 720px) {

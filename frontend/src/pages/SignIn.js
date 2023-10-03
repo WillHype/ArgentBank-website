@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import "../index.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
@@ -61,28 +60,6 @@ export function SignIn() {
       dispatch(loginSuccess(response.body.token));
       navigate("/user");
     }
-    // const request = {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify({ email: userName, password }),
-    // };
-    
-    // try {
-    //   const response = await fetch(
-    //     "http://localhost:3001/api/v1/user/login",
-    //     request
-    //   );
-    //   if (!response.ok) {
-    //     throw new Error(`HTTP error! status: ${response.status}`);
-    //   }
-    
-    //   const data = await response.json();
-    //   // console.log(data.body.token);
-    //   dispatch(loginSuccess(data.body.token));
-    //   navigate("/user");
-    // } catch (error) {
-    //   console.error("There was an error!", error);
-    // }  
   };
     // Si l'utilisateur est déjà connecté
     useEffect(() => {

@@ -183,7 +183,7 @@ const User = () => {
           description={account.description}
           key={account.id}
         />
-      ))};
+      ))}
     </main>
     );
 };

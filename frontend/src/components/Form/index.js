@@ -1,7 +1,4 @@
 import React, {useState} from "react";
-// import {login} from '../redux/features/';
-// import {connect} from 'react-redux';
-// import "./style.css";
 
 const Formulaire = () => {
     const [username, setUsername] = useState("");

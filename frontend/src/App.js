@@ -5,9 +5,6 @@ import store from './redux/store';
 // Layouts
 import Layout from './components/layout';
 
-//Styles
-import './App.css';
-
 // Import des pages
 import HomePage from './pages/HomePage';
 import SignIn from './pages/SignIn';
